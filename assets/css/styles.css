@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+}
+.grid .col-1 {
+  grid-column: span 1;
+}
+@media (max-width: 768px) {
+  .grid .col-1 {
+    grid-column: span 6;
+  }
+}
+.grid .col-2 {
+  grid-column: span 2;
+}
+@media (max-width: 768px) {
+  .grid .col-2 {
+    grid-column: span 6;
+  }
+}
+.grid .col-3 {
+  grid-column: span 3;
+}
+@media (max-width: 768px) {
+  .grid .col-3 {
+    grid-column: span 12;
+  }
+}
+.grid .col-4 {
+  grid-column: span 4;
+}
+.grid .col-5 {
+  grid-column: span 5;
+}
+.grid .col-6 {
+  grid-column: span 6;
+}
+.grid .col-7 {
+  grid-column: span 7;
+}
+.grid .col-8 {
+  grid-column: span 8;
+}
+.grid .col-9 {
+  grid-column: span 9;
+}
+.grid .col-10 {
+  grid-column: span 10;
+}
+.grid .col-11 {
+  grid-column: span 11;
+}
+.grid .col-12 {
+  grid-column: span 12;
+}
+
+* {
+  border: 1px solid hsl(231, 72%, 59%);
+  box-sizing: border-box;
+}

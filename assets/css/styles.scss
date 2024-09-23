@@ -1,0 +1,9 @@
+@import "reset";
+@import "vars";
+@import "layout";
+@import "grid";
+
+* {
+    border: 1px solid hwb(221 0% 0%);
+    box-sizing: border-box;
+}
